@@ -1,0 +1,789 @@
+<!doctype html>
+<html lang="en" id="page-scroll">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#f3f5f7" />
+    <meta
+      name="description"
+      content="Nookwell is a free real-estate landing-page template. Discover considered homes, explore neighborhoods and start your next chapter."
+    />
+    <title>Nookwell — A good place to begin</title>
+    <link rel="icon" href="assets/img/nookwell-mark.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="assets/fonts/outfit-variable.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link rel="stylesheet" href="assets/css/lenis.css?v=2f668ae84a" />
+    <link rel="stylesheet" href="assets/css/nookwell.css?v=0f32b5fa5d" />
+    <script src="assets/js/lenis-1.3.27.min.js" defer></script>
+    <script src="assets/js/nookwell.js" defer></script>
+  </head>
+  <body>
+    <svg
+      class="svg-library"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+    >
+      <defs>
+        <symbol id="arrow" viewBox="0 0 24 24">
+          <path d="M4 12h15m-6-6 6 6-6 6" />
+        </symbol>
+        <symbol id="diagonal" viewBox="0 0 24 24">
+          <path d="M6 18 18 6M6 6h12v12" />
+        </symbol>
+        <symbol id="pin" viewBox="0 0 24 24">
+          <path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z" />
+          <circle cx="12" cy="10" r="2.5" />
+        </symbol>
+        <symbol id="bed" viewBox="0 0 24 24">
+          <path
+            d="M3 19V5m0 10h18v4m-18-8h18v4M5 11V7h6v4m0 0V7h8a2 2 0 0 1 2 2v2"
+          />
+        </symbol>
+        <symbol id="bath" viewBox="0 0 24 24">
+          <path
+            d="M3 12h18v3a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5Zm3 0V5a3 3 0 0 1 6 0m-3 0h6M7 20v2m10-2v2"
+          />
+        </symbol>
+        <symbol id="area" viewBox="0 0 24 24">
+          <path
+            d="M4 9V4h5m6 0h5v5m0 6v5h-5M9 20H4v-5M4 4l5 5m11-5-5 5m5 11-5-5M4 20l5-5"
+          />
+        </symbol>
+        <symbol id="heart" viewBox="0 0 24 24">
+          <path d="M20 5c-3-3-7-1-8 2-1-3-5-5-8-2-5 5 8 15 8 15S25 10 20 5Z" />
+        </symbol>
+        <symbol id="close" viewBox="0 0 24 24">
+          <path d="m6 6 12 12M18 6 6 18" />
+        </symbol>
+        <symbol id="check" viewBox="0 0 24 24">
+          <path d="m5 12 4 4L19 6" />
+        </symbol>
+        <symbol id="chevron" viewBox="0 0 24 24">
+          <path d="m6 9 6 6 6-6" />
+        </symbol>
+        <symbol id="mail" viewBox="0 0 24 24">
+          <rect x="3" y="5" width="18" height="14" rx="3" />
+          <path d="m4 7 8 6 8-6" />
+        </symbol>
+      </defs>
+    </svg>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" id="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="#top" aria-label="Nookwell home"
+          ><img
+            src="assets/img/nookwell-mark.svg"
+            width="38"
+            height="38"
+            alt=""
+          /><span>nookwell<span class="brand-dot">.</span></span></a
+        >
+        <nav class="primary-nav" aria-label="Main navigation">
+          <a href="#homes">Find a home</a
+          ><a href="#neighborhoods">The neighborhoods</a
+          ><a href="#approach">Our approach</a>
+        </nav>
+        <div class="header-actions">
+          <a class="button button-small button-outline" href="#contact"
+            >Let's talk <svg class="arrow"><use href="#diagonal" /></svg></a
+          ><button
+            type="button"
+            id="menu-toggle"
+            class="menu-toggle"
+            hidden
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+            aria-label="Open navigation"
+          >
+            <span class="menu-stroke"></span><span class="menu-stroke"></span
+            ><span class="menu-stroke"></span><span class="menu-stroke"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <div
+      class="mobile-menu"
+      id="mobile-menu"
+      hidden
+      role="dialog"
+      aria-modal="true"
+      aria-label="Navigation"
+    >
+      <div class="menu-scroll" id="menu-scroll">
+        <div class="menu-content wrap">
+          <p class="menu-intro">A good place to begin.</p>
+          <nav aria-label="Mobile navigation">
+            <a href="#homes"
+              >Find a home <svg class="arrow"><use href="#diagonal" /></svg></a
+            ><a href="#neighborhoods"
+              >The neighborhoods
+              <svg class="arrow"><use href="#diagonal" /></svg></a
+            ><a href="#approach"
+              >Our approach <svg class="arrow"><use href="#diagonal" /></svg></a
+            ><a href="#faq"
+              >A few answers
+              <svg class="arrow"><use href="#diagonal" /></svg></a
+            ><a href="#contact"
+              >Let's talk <svg class="arrow"><use href="#diagonal" /></svg
+            ></a>
+          </nav>
+          <p class="menu-footnote">
+            Homes with a little more life.<br />People who help you find them.
+          </p>
+        </div>
+      </div>
+    </div>
+    <main id="main">
+      <section class="hero wrap" id="top" aria-labelledby="hero-title">
+        <div class="hero-intro">
+          <div>
+            <p class="eyebrow">
+              <span class="small-roof" aria-hidden="true"></span> A good place
+              to begin
+            </p>
+            <h1 id="hero-title">Good places.<br />Better beginnings.</h1>
+          </div>
+          <div class="hero-note">
+            <p>
+              A little more light. A favorite street. Room for whatever comes
+              next.
+            </p>
+            <a href="#homes" class="text-action"
+              >Find your kind of home
+              <svg class="arrow"><use href="#arrow" /></svg
+            ></a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img
+            src="assets/img/hero.webp"
+            width="1800"
+            height="1194"
+            alt="A modern home with an open courtyard, garden and floor-to-ceiling windows"
+            fetchpriority="high"
+          />
+          <div class="hero-property">
+            <div>
+              <span class="property-kicker">A closer look</span>
+              <h2>The courtyard house</h2>
+              <p>
+                <svg><use href="#pin" /></svg> Brookside · Sample listing
+              </p>
+            </div>
+            <a
+              class="photo-action"
+              href="#contact"
+              data-property="courtyard"
+              aria-label="Explore The courtyard house"
+              ><svg class="arrow"><use href="#diagonal" /></svg
+            ></a>
+          </div>
+          <span class="hero-caption">Thoughtful spaces. Everyday living.</span>
+        </div>
+        <div class="hero-bottom">
+          <p>For the way you want to live.</p>
+          <a class="text-action" href="#homes"
+            >Explore the homes <svg class="arrow"><use href="#arrow" /></svg
+          ></a>
+        </div>
+      </section>
+      <section
+        class="homes-section section"
+        id="homes"
+        aria-labelledby="homes-title"
+      >
+        <div class="wrap">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">The shortlist</p>
+              <h2 id="homes-title">Find your next<br />“this is the one.”</h2>
+            </div>
+            <p>
+              Different spaces. The same good feeling.<br />A few places we
+              think you'll love.
+            </p>
+          </div>
+          <div class="filter-bar" hidden id="listing-filters">
+            <div class="segmented" role="group" aria-label="Listing type">
+              <button type="button" data-type="all" aria-pressed="true">
+                All homes</button
+              ><button type="button" data-type="buy" aria-pressed="false">
+                Buy</button
+              ><button type="button" data-type="rent" aria-pressed="false">
+                Rent
+              </button>
+            </div>
+            <div
+              class="location-filters"
+              role="group"
+              aria-label="Neighborhood"
+            >
+              <button type="button" data-area="all" aria-pressed="true">
+                Everywhere</button
+              ><button type="button" data-area="brookside" aria-pressed="false">
+                Brookside</button
+              ><button
+                type="button"
+                data-area="north-quarter"
+                aria-pressed="false"
+              >
+                North Quarter</button
+              ><button type="button" data-area="riverside" aria-pressed="false">
+                Riverside
+              </button>
+            </div>
+          </div>
+          <p id="result-count" class="result-count" role="status">
+            3 sample homes to explore
+          </p>
+          <div class="property-grid" id="property-grid">
+            <article
+              class="property-card"
+              data-type="buy"
+              data-area="brookside"
+            >
+              <div class="property-image">
+                <a
+                  href="#contact"
+                  data-property="courtyard"
+                  aria-label="View The courtyard house"
+                  ><img
+                    src="assets/img/hero.webp"
+                    width="1800"
+                    height="1194"
+                    alt="Glass-fronted courtyard home with garden"
+                    loading="lazy" /></a
+                ><span class="listing-badge">For sale</span
+                ><button
+                  type="button"
+                  class="save-home"
+                  hidden
+                  data-save="courtyard"
+                  aria-pressed="false"
+                  aria-label="Save The courtyard house"
+                >
+                  <svg><use href="#heart" /></svg>
+                </button>
+              </div>
+              <div class="property-top">
+                <h3>
+                  <a href="#contact" data-property="courtyard"
+                    >The courtyard house</a
+                  >
+                </h3>
+                <p class="price">$685,000</p>
+              </div>
+              <p class="address">Brookside · 18 Willow Lane</p>
+              <ul class="property-specs" aria-label="Property features">
+                <li>
+                  <svg><use href="#bed" /></svg>3 beds
+                </li>
+                <li>
+                  <svg><use href="#bath" /></svg>2 baths
+                </li>
+                <li>
+                  <svg><use href="#area" /></svg>1,850 sq ft
+                </li>
+              </ul>
+              <a
+                class="text-action property-link"
+                href="#contact"
+                data-property="courtyard"
+                >Step inside <svg class="arrow"><use href="#diagonal" /></svg
+              ></a>
+            </article>
+            <article
+              class="property-card"
+              data-type="buy"
+              data-area="north-quarter"
+            >
+              <div class="property-image">
+                <a
+                  href="#contact"
+                  data-property="garden"
+                  aria-label="View The garden home"
+                  ><img
+                    src="assets/img/garden-home.webp"
+                    width="1000"
+                    height="667"
+                    alt="Detached house with a welcoming front garden"
+                    loading="lazy" /></a
+                ><span class="listing-badge">For sale</span
+                ><button
+                  type="button"
+                  class="save-home"
+                  hidden
+                  data-save="garden"
+                  aria-pressed="false"
+                  aria-label="Save The garden home"
+                >
+                  <svg><use href="#heart" /></svg>
+                </button>
+              </div>
+              <div class="property-top">
+                <h3>
+                  <a href="#contact" data-property="garden">The garden home</a>
+                </h3>
+                <p class="price">$525,000</p>
+              </div>
+              <p class="address">North Quarter · 42 Maple Avenue</p>
+              <ul class="property-specs" aria-label="Property features">
+                <li>
+                  <svg><use href="#bed" /></svg>4 beds
+                </li>
+                <li>
+                  <svg><use href="#bath" /></svg>2 baths
+                </li>
+                <li>
+                  <svg><use href="#area" /></svg>2,100 sq ft
+                </li>
+              </ul>
+              <a
+                class="text-action property-link"
+                href="#contact"
+                data-property="garden"
+                >Step inside <svg class="arrow"><use href="#diagonal" /></svg
+              ></a>
+            </article>
+            <article
+              class="property-card"
+              data-type="rent"
+              data-area="riverside"
+            >
+              <div class="property-image">
+                <a
+                  href="#contact"
+                  data-property="riverside"
+                  aria-label="View The light-filled retreat"
+                  ><img
+                    src="assets/img/courtyard.webp"
+                    width="1000"
+                    height="839"
+                    alt="Contemporary residential home with large open windows"
+                    loading="lazy" /></a
+                ><span class="listing-badge">To rent</span
+                ><button
+                  type="button"
+                  class="save-home"
+                  hidden
+                  data-save="riverside"
+                  aria-pressed="false"
+                  aria-label="Save The light-filled retreat"
+                >
+                  <svg><use href="#heart" /></svg>
+                </button>
+              </div>
+              <div class="property-top">
+                <h3>
+                  <a href="#contact" data-property="riverside"
+                    >The light-filled retreat</a
+                  >
+                </h3>
+                <p class="price">$2,400<span> / mo</span></p>
+              </div>
+              <p class="address">Riverside · 7 River Walk</p>
+              <ul class="property-specs" aria-label="Property features">
+                <li>
+                  <svg><use href="#bed" /></svg>2 beds
+                </li>
+                <li>
+                  <svg><use href="#bath" /></svg>2 baths
+                </li>
+                <li>
+                  <svg><use href="#area" /></svg>1,240 sq ft
+                </li>
+              </ul>
+              <a
+                class="text-action property-link"
+                href="#contact"
+                data-property="riverside"
+                >Step inside <svg class="arrow"><use href="#diagonal" /></svg
+              ></a>
+            </article>
+          </div>
+          <div class="empty-state" id="empty-state" hidden>
+            <svg><use href="#pin" /></svg>
+            <h3>No homes in this combination.</h3>
+            <p>Try another neighborhood or see the full shortlist.</p>
+            <button type="button" class="button" id="reset-filters">
+              Show all homes <svg class="arrow"><use href="#arrow" /></svg>
+            </button>
+          </div>
+          <p class="listing-note">
+            A little inspiration: all homes, locations and prices here are
+            illustrative.
+          </p>
+        </div>
+      </section>
+      <section
+        class="neighborhood-section wrap"
+        id="neighborhoods"
+        aria-labelledby="neighborhood-title"
+      >
+        <div class="neighborhood-copy">
+          <p class="eyebrow">More than an address</p>
+          <h2 id="neighborhood-title">
+            Your people.<br />Your morning coffee.<br />Your part of town.
+          </h2>
+          <p>
+            The right neighborhood feels familiar before you've even unpacked.
+            Start with the everyday things that matter to you.
+          </p>
+          <div class="neighborhood-list">
+            <a href="#homes" data-neighborhood="brookside"
+              ><span
+                >Brookside<small>Leafy streets & quiet mornings</small></span
+              ><svg class="arrow"><use href="#diagonal" /></svg></a
+            ><a href="#homes" data-neighborhood="north-quarter"
+              ><span
+                >North Quarter<small
+                  >Local shops & a lively little center</small
+                ></span
+              ><svg class="arrow"><use href="#diagonal" /></svg></a
+            ><a href="#homes" data-neighborhood="riverside"
+              ><span>Riverside<small>Open skies & room to wander</small></span
+              ><svg class="arrow"><use href="#diagonal" /></svg
+            ></a>
+          </div>
+        </div>
+        <figure class="neighborhood-photo">
+          <img
+            src="assets/img/interior.webp"
+            width="1000"
+            height="750"
+            alt="A bright living room with a comfortable sofa, natural textures and garden views"
+            loading="lazy"
+          />
+          <figcaption>
+            <span class="sun-mark" aria-hidden="true">☀</span
+            ><span>Some places just feel right.</span>
+          </figcaption>
+        </figure>
+      </section>
+      <section
+        class="approach-section section"
+        id="approach"
+        aria-labelledby="approach-title"
+      >
+        <div class="wrap approach-layout">
+          <div class="approach-intro">
+            <p class="eyebrow">People, then property</p>
+            <h2 id="approach-title">A new chapter.<br />A familiar face.</h2>
+            <p>
+              A home is a big decision. The process doesn't have to feel that
+              way. Here's how a small, thoughtful team can help.
+            </p>
+            <a href="#contact" class="button button-dark"
+              >Start a conversation
+              <svg class="arrow"><use href="#arrow" /></svg
+            ></a>
+            <div class="house-sketch" aria-hidden="true">
+              <svg viewBox="0 0 400 220">
+                <path
+                  d="m28 151 122-103 122 103M64 122v78h172v-78M150 48v152M86 142h37v36H86Zm86 0h37v36h-37Zm109-2 45-38 46 38m-78-28v88h61v-88M49 201h326"
+                />
+                <path
+                  d="M120 29h62M150 10v37m-22-34 15 15m23-15-15 15"
+                  class="sketch-accent"
+                />
+              </svg>
+            </div>
+          </div>
+          <ol class="process-list">
+            <li>
+              <span class="step">1</span>
+              <div>
+                <h3>Tell us what home means to you.</h3>
+                <p>
+                  A sunny kitchen? A shorter commute? Space for the dog? Begin
+                  with your life, not a checklist of bedrooms.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="step">2</span>
+              <div>
+                <h3>Find the places that fit.</h3>
+                <p>
+                  Build a considered shortlist, explore the surroundings and
+                  take a proper look. No pressure to rush the feeling.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="step">3</span>
+              <div>
+                <h3>Make your next move, together.</h3>
+                <p>
+                  From the first conversation to the last set of keys, know
+                  what's happening and what comes next.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section
+        class="faq-section section wrap"
+        id="faq"
+        aria-labelledby="faq-title"
+      >
+        <div class="faq-heading">
+          <p class="eyebrow">Before we begin</p>
+          <h2 id="faq-title">A little clarity<br />goes a long way.</h2>
+          <p>
+            Something else on your mind?<br /><a
+              class="text-action"
+              href="#contact"
+              >Let's talk about it <svg class="arrow"><use href="#arrow" /></svg
+            ></a>
+          </p>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>
+              Can I browse both sales and rentals?<svg class="faq-icon">
+                <use href="#chevron" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Yes. Use Buy or Rent above the sample listings, then narrow the
+                results by neighborhood. Choose All homes and Everywhere to see
+                the whole shortlist again.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              How do I ask about a home?<svg class="faq-icon">
+                <use href="#chevron" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Open a home's details and choose Ask about this home. Its name
+                will be added to your enquiry. This static demo prepares an
+                email draft; it doesn't send a message or book a viewing.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              Are these real homes for sale?<svg class="faq-icon">
+                <use href="#chevron" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                No. Nookwell is a fictional real-estate studio, and the
+                listings, prices, addresses and availability are sample content.
+                The photography illustrates the template; it does not represent
+                a real property offer.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              Can I make this website my own?<svg class="faq-icon">
+                <use href="#chevron" />
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Absolutely. This is a free HTML, CSS and JavaScript template.
+                Replace the homes, text, brand and contact destination, keeping
+                the included font, library and photo license notices. Setup and
+                domain-upload instructions are in README.txt.
+              </p>
+            </div>
+          </details>
+        </div>
+      </section>
+      <section
+        class="contact-section"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="wrap contact-layout">
+          <div class="contact-copy">
+            <p class="eyebrow">Your next chapter</p>
+            <h2 id="contact-title">Let's find<br />your somewhere.</h2>
+            <p>
+              Tell us a little about what you're looking for. Every good move
+              starts with a conversation.
+            </p>
+            <div class="contact-stamp">
+              <svg><use href="#mail" /></svg
+              ><span>A human conversation.<br />No hard sell.</span>
+            </div>
+          </div>
+          <form
+            id="enquiry-form"
+            class="enquiry-form"
+            action="mailto:hello@nookwell.example"
+            method="post"
+            enctype="text/plain"
+          >
+            <div class="form-row">
+              <label
+                >Your name<input
+                  name="name"
+                  autocomplete="name"
+                  required
+                  maxlength="100"
+                  placeholder="Alex Taylor" /></label
+              ><label
+                >Email address<input
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  maxlength="180"
+                  placeholder="alex@example.com"
+              /></label>
+            </div>
+            <label
+              >What would home look like?<textarea
+                name="message"
+                id="enquiry-message"
+                rows="4"
+                required
+                maxlength="2000"
+                placeholder="A neighborhood you love, a place you've spotted, or just a first thought…"
+              ></textarea>
+            </label>
+            <p class="form-note">
+              Template demo: prepares an email draft. Nothing is sent from this
+              page.
+            </p>
+            <button class="button button-dark" type="submit">
+              Prepare my enquiry
+              <svg class="arrow"><use href="#arrow" /></svg></button
+            ><noscript
+              ><p>
+                This form needs JavaScript to prepare a draft. You can copy your
+                message into your own email app instead. The demo address is
+                hello@nookwell.example.
+              </p></noscript
+            >
+            <div class="draft-result" id="draft-result" hidden role="status">
+              <h3>Your draft is ready.</h3>
+              <p>
+                No message has been sent. The template's destination is a
+                placeholder; replace it before using this as a live website.
+              </p>
+              <textarea
+                readonly
+                aria-label="Your enquiry draft"
+                id="draft-text"
+                rows="5"
+              ></textarea>
+              <div class="draft-actions">
+                <a
+                  class="text-action"
+                  id="open-email"
+                  href="mailto:hello@nookwell.example"
+                  >Open email app
+                  <svg class="arrow"><use href="#diagonal" /></svg></a
+                ><button type="button" class="text-action" id="copy-draft">
+                  Copy draft <svg><use href="#mail" /></svg>
+                </button>
+              </div>
+              <p id="copy-status" role="status"></p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer id="site-footer" class="site-footer">
+      <div class="wrap">
+        <div class="footer-main">
+          <div>
+            <a class="brand" href="#top" aria-label="Nookwell back to top"
+              ><img
+                src="assets/img/nookwell-mark.svg"
+                alt=""
+                width="38"
+                height="38"
+              /><span>nookwell.</span></a
+            >
+            <p>A good place to begin.</p>
+          </div>
+          <nav aria-label="Footer navigation">
+            <a href="#homes">The homes</a><a href="#approach">The people</a
+            ><a href="#faq">The answers</a
+            ><a href="LICENSE">Template license</a>
+          </nav>
+          <a class="back-top" href="#top" aria-label="Back to top"
+            ><svg class="arrow"><use href="#arrow" /></svg
+          ></a>
+        </div>
+        <p class="demo-disclaimer">
+          Nookwell is a fictional studio. All listings and business details are
+          illustrative.
+        </p>
+        <div class="footer-meta">
+          <span>© 2026 Nookwell. A free HTML template.</span
+          ><span
+            >Designed &amp; developed by
+            <a
+              href="https://www.usmankhairdin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><strong>Usman Khair Din</strong></a
+            ></span
+          >
+        </div>
+      </div>
+    </footer>
+    <dialog
+      class="property-dialog"
+      id="property-dialog"
+      aria-labelledby="dialog-title"
+    >
+      <div class="dialog-scroll" id="dialog-scroll">
+        <div class="dialog-content">
+          <div class="dialog-top">
+            <span>Take a closer look</span
+            ><button
+              type="button"
+              class="dialog-close"
+              aria-label="Close property details"
+            >
+              <svg><use href="#close" /></svg>
+            </button>
+          </div>
+          <img
+            class="dialog-image"
+            id="dialog-image"
+            src="assets/img/hero.webp"
+            width="1800"
+            height="1194"
+            alt=""
+          />
+          <div class="dialog-description">
+            <p class="eyebrow" id="dialog-area"></p>
+            <h2 id="dialog-title"></h2>
+            <p class="dialog-price" id="dialog-price"></p>
+            <p id="dialog-description"></p>
+            <ul class="dialog-specs" id="dialog-specs"></ul>
+            <p class="dialog-demo">
+              Illustrative listing. This is not an actual offer of sale or
+              rental.
+            </p>
+            <button type="button" class="button" id="ask-property">
+              Ask about this home <svg class="arrow"><use href="#arrow" /></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </dialog>
+    <div class="sr-only" id="save-status" role="status"></div>
+  </body>
+</html>

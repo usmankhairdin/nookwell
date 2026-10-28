@@ -1,0 +1,26 @@
+[
+  {
+    "file": "assets/img/hero.webp",
+    "source": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9",
+    "license": "https://unsplash.com/license",
+    "usage": "Incorporated property photography; illustrative, not actual listings."
+  },
+  {
+    "file": "assets/img/garden-home.webp",
+    "source": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+    "license": "https://unsplash.com/license",
+    "usage": "Incorporated property photography; illustrative, not actual listings."
+  },
+  {
+    "file": "assets/img/courtyard.webp",
+    "source": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde",
+    "license": "https://unsplash.com/license",
+    "usage": "Incorporated property photography; illustrative, not actual listings."
+  },
+  {
+    "file": "assets/img/interior.webp",
+    "source": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0",
+    "license": "https://unsplash.com/license",
+    "usage": "Incorporated property photography; illustrative, not actual listings."
+  }
+]
