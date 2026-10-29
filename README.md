@@ -6,6 +6,10 @@ A responsive real estate landing page built with editable HTML, CSS and vanilla 
 
 [![Nookwell real estate website preview](preview.webp)](https://store.usmankhairdin.com/nookwell/)
 
+## Practical guide
+
+[Customize a real estate website with HTML, CSS and JavaScript](guides/customize-a-real-estate-website.md) — a walkthrough of the actual files, content edits, launch checks and relevant template options.
+
 ## Get started
 
 Download this repository using **Code → Download ZIP**, extract it, and open `index.html` in a modern browser. Keep `assets/` beside the HTML file.
